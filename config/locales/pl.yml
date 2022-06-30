@@ -1,0 +1,23 @@
+# English strings go here for Rails i18n
+pl:
+  my_issues_on_my_page: "Moja strona"
+  unread_issues_label_filter_unread: 'Nieprzeczytane'
+  unread_issues_label_filter_updated: 'Nieprzeczytane zmiany'
+  unread_issues:
+    settings_label_assigned_issues: 'Zapytanie, które definiuje wszystkie problemy na użytkownika'
+
+  permission_view_issue_view_stats: "Wyświetl listę użytkowników, którzy widzieli problem"
+  views_statistics: "Statystyki wyświetleń"
+  label_unread_issues_employee: "Pracownik"
+  label_unread_issues_last_viewed_date: "Ostatnio oglądane"
+  label_rmplus_logo: ""
+  info_query_for_search_of_issues: "Zapytanie o przeszukiwanie nieprzeczytanych problemów, o których powinieneś wiedzieć."
+
+  permission_desc_issue_tracking_view_issue_view_stats: 'Umożliwia wyświetlanie statystyk widoków problemów na stronie wydania na oddzielnej karcie. Działa tylko wtedy, gdy istnieje wtyczka redmine_issue_tabs.'
+
+  label_cm_menu_top_menu_my_page: 'Moje zagadnienia'
+  ui_error_cant_delete_query_used_in_plugin_settings: "Nie można usunąć zapytania użytego w %{link}!"
+  ui_label_module_settings_custom: 'Unread Issues settings plugin'
+  label_us_my_issues: 'Moje zagadnienia'
+  label_cm_menu_top_menu_us_my_issues: 'Moje zagadnienia'
+

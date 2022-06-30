@@ -1,0 +1,22 @@
+# French strings go here for Rails i18n
+fr:
+  my_issues_on_my_page: "Mes demandes"
+  unread_issues_label_filter_unread: 'Non lues'
+  unread_issues_label_filter_updated: 'Mise à jour'
+  unread_issues:
+    settings_label_assigned_issues: "Requête qui défini toutes les demandes pour l'utilisateur"
+
+  permission_view_issue_view_stats: "Voir la liste des utilisateurs qui ont consulté la demande"
+  views_statistics: "Voir les statistiques"
+  label_unread_issues_employee: "Employé"
+  label_unread_issues_last_viewed_date: "Vue en dernier le"
+  label_rmplus_logo: "Ce plugin est développé par l'équipe \"RM+\". Vous pouvez consulter nos plugins à"
+  info_query_for_search_of_issues: "Requête pour rechercher les demandes non lues dont vous devriez être notifié."
+
+  permission_desc_issue_tracking_view_issue_view_stats: "Autoriser l'affichage des statistiques de consultation des demandes sur la page de la demande dans un onglet séparé. Ce ne fonctionne que s'il y le plugin 'redmine_issue_tabs' installé."
+
+  label_cm_menu_top_menu_my_page: 'Mes demandes'
+  ui_error_cant_delete_query_used_in_plugin_settings: "Vous ne pouvez pas supprimer la requête utilisée par %{link}!"
+  ui_label_module_settings_custom: 'Paramètres plugin Unread Issues'
+  label_us_my_issues: 'Mes demandes'
+  label_cm_menu_top_menu_us_my_issues: 'Mes demandes'

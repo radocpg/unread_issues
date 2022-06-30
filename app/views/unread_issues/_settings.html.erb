@@ -1,0 +1,31 @@
+<%
+  @queries = [['---', nil]] + IssueQuery.where("project_id IS NULL AND visibility=?", 2).order(:name).collect { |it| [it.name, it.id] }
+%>
+
+
+<div style="padding: 10px;">
+
+  <table class="plugin_settings" style="width: 100%;">
+
+    <tr>
+      <td width="40%">
+        <label for="settings_assigned_issues"><%= l('unread_issues.settings_label_assigned_issues') %></label>
+        <a href="#" rel="tooltip" data-original-title="<%= l(:info_query_for_search_of_issues) %>" class="icon icon-inform"></a>
+      </td>
+      <td>
+        <%= select_tag('settings[assigned_issues]',
+                       options_for_select(@queries, @settings['assigned_issues']),
+                       class: 'rmp-fast-edit',
+                       data: {'edit-url' => url_for(controller: 'queries', action: 'edit', id: 0), 'add-url' => url_for(controller: 'queries', action: 'new')}) %>
+      </td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td id="settings_save_button">
+        <%= render file: File.join(File.dirname(__FILE__), "_rmplus_logo.html.erb") %>
+      </td>
+    </tr>
+
+  </table>
+</div>

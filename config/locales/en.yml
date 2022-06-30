@@ -1,0 +1,22 @@
+# English strings go here for Rails i18n
+en:
+  my_issues_on_my_page: "My page"
+  unread_issues_label_filter_unread: 'Unread'
+  unread_issues_label_filter_updated: 'Unread changes'
+  unread_issues:
+    settings_label_assigned_issues: 'Query that defines all issues on user'
+
+  permission_view_issue_view_stats: "View list of users who viewed issue"
+  views_statistics: "Views statistics"
+  label_unread_issues_employee: "Employee"
+  label_unread_issues_last_viewed_date: "Last viewed on"
+  label_rmplus_logo: "This plugin is developed by \"RM+\" team. You can check out all of our plugins on"
+  info_query_for_search_of_issues: "Query for searching unread issues which you should be informed on."
+
+  permission_desc_issue_tracking_view_issue_view_stats: 'Allows you to display statistics of issue views on issue page in a separate tab. It only works if there is a plugin redmine_issue_tabs.'
+
+  label_cm_menu_top_menu_my_page: 'My issues'
+  ui_error_cant_delete_query_used_in_plugin_settings: "You can not delete the query used in %{link}!"
+  ui_label_module_settings_custom: 'Unread Issues plugin settings'
+  label_us_my_issues: 'My issues'
+  label_cm_menu_top_menu_us_my_issues: 'My issues'
